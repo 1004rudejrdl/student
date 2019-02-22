@@ -253,7 +253,7 @@ public class MainController implements Initializable{
 			t1DatePicker.setDisable(false);
 			t1TextNo.setDisable(false);
 			t1TextName.setDisable(false);
-			t1TextLanguage.setDisable(false);
+   			t1TextLanguage.setDisable(false);
 			t1TextEnglish.setDisable(false);
 			t1TextMath.setDisable(false);
 			t1TextScience.setDisable(false);
