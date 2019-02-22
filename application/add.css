@@ -1,0 +1,39 @@
+#anchorPane{
+	-fx-background-image:url("../images/bono.png");
+		
+}
+
+AnchorPane {
+	-fx-background-color:lightyellow;
+	
+}
+TextField, PasswordField{
+	-fx-background-radius:5.0;
+	-fx-border-radius:5.0;
+}
+Button{
+	-fx-background-color:skyblue;
+	-fx-background-radius:10.0;
+	-fx-border-radius:10.0;
+	-fx-text-fill:#006400;	
+}
+TextField:focused, PasswordField:focused{
+	-fx-border-color:#FF6600;
+	-fx-background-radius:5.0;
+	-fx-border-radius:5.0;
+	-fx-effect:dropshadow(three-pass-box, skyblue, 3,0.5,2,2)
+}
+Button:hover{
+	-fx-cursor:hand;
+	-fx-background-color:#FF6600;
+	-fx-border-color:skyblue;
+	-fx-background-radius:10.0;
+	-fx-border-radius:10.0;
+	-fx-effect:dropshadow(three-pass-box, skyblue, 3,0.5,2,2)
+}
+Label{
+	-fx-font-famaily:"³ª´®°íµñ";
+	-fx-font-size:14;
+	-fx-font-weight:bold;
+	-fx-text-fill:#006400;	
+}
