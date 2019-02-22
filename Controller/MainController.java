@@ -109,7 +109,7 @@ public class MainController implements Initializable{
 		
 		//1-3. 점수 텍스트필드 포맷설정
 		setTextFieldFormatSetting();
-		
+  		
 		
 		//2. 버튼과 입력필드 초기설정
 		setButtonTextFieldInitiate("처음");
