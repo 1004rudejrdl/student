@@ -25,7 +25,7 @@ public class RootController implements Initializable{
 	@FXML private Button btnLogin;
 	@FXML private Button btnClose;
 	
-	
+	        
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 		btnLogin.setOnAction(event-> {handlerBtnLoginAction();}); // 로그인버튼 액션 추가
